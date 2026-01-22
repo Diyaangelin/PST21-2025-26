@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="even or odd"/>
+        <attribute name="authors" value="dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:51:18 AM"/>
+        <attribute name="created" value="ZGVsbDtERVNLVE9QLUhPNlYzMUY7MjAyNi0wMS0wNjsxMDozMDoyNSBBTTsyNzE4"/>
+        <attribute name="edited" value="ZGVsbDtERVNLVE9QLUhPNlYzMUY7MjAyNi0wMS0wNjsxMDo1MToxOCBBTTsyOzI4MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="50"/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <assign variable="y" expression="80"/>
+            <declare name="z" type="Integer" array="False" size=""/>
+            <assign variable="z" expression="75"/>
+            <if expression="x&gt;y">
+                <then>
+                    <if expression="x&gt;z">
+                        <then>
+                            <output expression="&quot;x is greatest&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;y is greatest&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="y&gt;z">
+                        <then>
+                            <output expression="&quot;y is greatest&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;z is greatest&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
